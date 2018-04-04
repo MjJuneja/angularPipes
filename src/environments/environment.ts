@@ -4,5 +4,7 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  serverUrl: "https://hn.algolia.com",
+  resultsApi: "/api/v1/search_by_date?tags=story"
 };
